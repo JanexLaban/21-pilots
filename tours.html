@@ -2,19 +2,57 @@
 <html>
     <head>
         <title> Twenty One Pilot Main Website</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nabla&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="main.css">
+
     </head>
-    <header> 
-        <a href="home.html">Home</a><br>
-        <a href="albums.html">Albums</a><br>
-        <a href="merch.html">Merch<br></a> 
-        <a href= "tours.html">Tours<br></a>
-    </header>
-    <hr>
     <body>
-       
-        <footer>
-            <img src="" alt="Spotify logo">
-            <img src="" alt="Youtube logo">
+        <header class="main-header"> 
+            <nav class="nav main-nav" >
+               <a href="home.html">Home</a>
+               <a href="tours.html">Tours</a>
+               <a href="merch.html">Merch</a>
+           </nav>
+            <h1><i>TWENTY ONE PILOTS</i></h1>
+       </header>
+
+        <h1 class="tours-head">Twenty One Pilots</h1>
+        <button type="button" class="btn"> Get Our Latest Single</button>
+            <br>
+            <br>
+        <button type="button" class="btn btn-play">&#9654</button>
+        <section>
+            <h2 class="h2"> Tours </h2>
+            <div class="tours-arr">
+                <div class="tours-arry tours-item">
+                    <span class="tours-arry tours-item tours-date">Mar 23</span>  
+                    <span class="tours-ind">Tokyo </span>
+                    <span class="tours-ind">KonoshitaST </span> 
+                    <button type="button"class="tours-ind btn btn-book">Book</button> 
+               </div>
+                <div class="tours-arry tours-item">
+                    <span class="tours-ind tours-date">Mar 25</span>
+                    <span class="tours-ind">Tokyo </span>
+                    <span class="tours-ind">KonoshitaST </span> 
+                    <button type="button" class="tours-ind btn btn-book ">Book</button> 
+               </div>
+               <div class="tours-arry tours-item">
+                    <span class="tours-ind tours-date">Kumamoto 23</span>
+                    <span class="tours-ind">Tokyo </span>
+                    <span class="tours-ind"> KonoshitaST </span> 
+                    <button type="button" class="tours-ind btn btn-book ">Book</button> 
+                </div>
+            </div>
+        </section>
+        <footer class="main-footer">
+            <h3><strong><i>Twenty One Pilots</i></strong> </h3>
+            <ul>
+                <li> <img src="images\spotify-logo-on-transparent-background-free-vector.webp" alt="Spotify logo" width="50px"></li>
+                <li>  <img src="images\download.png" alt="Youtube logo" width="50px"></li>
+             </ul>
         </footer>
     </body>
 </html>
